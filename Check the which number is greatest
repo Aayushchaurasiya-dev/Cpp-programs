@@ -1,0 +1,24 @@
+#include<iostream.h>
+#include<conio.h>
+void main()
+{
+int a,b,c;
+clrscr();
+cout<<"enter 1st number : ";
+cin>>a;
+cout<<"enter 2nd number : ";
+cin>>b;
+cout<<"enter 3rd number : ";
+cin>>c;
+if(a>b&&a>c)
+{
+cout<<a<<"is gratest";
+}
+else if(b>c){
+cout<<b<<"is greatest";
+}
+else{
+ cout<<c<<"is gratest";
+}
+getch();
+}
